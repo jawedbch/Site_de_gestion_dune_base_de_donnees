@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c3c); /* Dégradé sombre violet-gris */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffda9e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #ffa733;
+    transform: translateY(-2px);
+}
+
+.btn-accueil {
+    position: fixed;
+    top: 20px;
+    left: 150px; /* Positionné à côté du bouton Retour */
+    padding: 10px 20px;
+    background-color: #2e7d32; /* Vert foncé */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.btn-accueil:hover {
+    background-color: #43a047; /* Vert clair au survol */
+}
+
+.btn-retour {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000; /* Pour qu'il reste au-dessus des autres éléments */
+}
+
+.btn-retour:hover {
+    background-color: #666;
+}

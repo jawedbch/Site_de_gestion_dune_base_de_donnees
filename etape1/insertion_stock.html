@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insertion Stock</title>
+</head>
+<body>
+    <h1>Insertion Stock :</h1>
+    <form action="inserer_stock.php" method="get">
+        <p>
+            <!-- il faut mettre des IDs qui existent dans la base de données -->
+            <b>ID du magasin : </b>
+            <input type="text" name="magasin_id" size="5" required/>
+        </p>
+        <p>
+            <b>ID de la capsule : </b>
+            <input type="text" name="capsule_id" size="5" required/>
+        </p>
+        <p>
+            <b>Quantité : </b>
+            <input type="text" name="stock_quantite" size="5" required/>
+        </p>
+        <p>
+            <input type="submit" name="envoyer" value="Inserer" required>
+            <input type="reset" name="effacer" value="Effacer" required>
+        </p>
+    </form>
+</body>
+</html>
