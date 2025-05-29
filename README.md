@@ -1,7 +1,8 @@
 # ☕ Projet Web – Gestion des Capsules, Magasins et Stocks
 
-Projet réalisé dans le cadre du cours **InfoWeb** à l’Université du Havre.  
-Cette application web permet de gérer une base de données contenant des **capsules de café**, des **magasins**, et leurs **stocks**, via une interface simple en PHP.
+Projet réalisé dans le cadre du TP **InfoWeb** — Université du Havre.  
+Cette application web permet de gérer une base de données contenant des **capsules de café**, des **magasins**, et leurs **stocks**, via une interface simple en PHP.    
+Encadré par : Dominique Fournier
 
 ---
 
